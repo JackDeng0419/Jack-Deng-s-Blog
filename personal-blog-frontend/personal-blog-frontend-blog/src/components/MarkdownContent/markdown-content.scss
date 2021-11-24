@@ -1,0 +1,22 @@
+#article-area {
+    background-color: #272727;
+    margin-bottom: 200px;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #758aff;
+    }
+
+    .markdown-content {
+        color: #c2cad8;
+        width: 50vw;
+        margin: 0 auto;
+        overflow-wrap: break-word;
+        margin-top: 50px;
+        font-size: 20px;
+    }
+}

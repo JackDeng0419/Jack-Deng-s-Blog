@@ -1,0 +1,38 @@
+.project {
+    color: white;
+    text-align: center;
+    background-color: #1f1f1f;
+    width: 280px;
+    height: 220px;
+    padding: 20px 30px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    .name {
+        color: #757ff8;
+        font-weight: bold;
+    }
+    .links {
+        list-style: none;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        margin: 8px 0;
+        li {
+            border: 1px #555555 solid;
+            font-size: 16px;
+            color: #e8e8e8;
+            padding: 0 5px;
+            cursor: pointer;
+            margin: 0 4px;
+        }
+        li:hover {
+            border-color: #757ff8;
+            color: #757ff8;
+        }
+    }
+    .desc {
+        margin-top: 8px;
+        color: #a2a7b1;
+    }
+}

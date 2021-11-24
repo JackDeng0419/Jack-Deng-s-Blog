@@ -1,0 +1,19 @@
+.section-intro {
+    margin: 0 auto;
+    margin-top: 25px;
+    text-align: center;
+    width: 45vw;
+    .title {
+        color: #eeeeee;
+        font-size: 45px;
+        font-weight: bold;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        width: 35vw;
+    }
+
+    .desc {
+        color: #8f949d;
+        font-size: 22px;
+    }
+}

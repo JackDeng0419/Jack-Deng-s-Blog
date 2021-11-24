@@ -1,0 +1,20 @@
+.big-blog-list {
+    .list-item {
+        padding: 10px 20px;
+        border: 1px transparent solid;
+        color: white;
+        display: flex;
+        cursor: pointer;
+        .title {
+            font-size: 18px;
+            color: #b3b9c5;
+        }
+        .date {
+            color: #8f949d;
+        }
+    }
+    .list-item:hover {
+        background-color: rgba(0, 0, 0, 0.158);
+        border: 1px solid rgb(133, 38, 38);
+    }
+}
